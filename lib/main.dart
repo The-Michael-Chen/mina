@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: "For Mina :)",
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyAppState extends ChangeNotifier {
-  var synonyms = ['valentine', 'sweetheart', 'beloved', 'bae', 'juliet', 'sweet', 'angel', 'darling', 'spark', 'dearest', 'honey', 'admirer', 'flame', 'dear', 'inamorata', 'paramour', 'steady', 'wooer'];
+  var synonyms = ['valentine', 'mcmuffin', 'love bug', 'tootsie roll', 'amor', 'bae', 'juliet', 'sweetie pie', 'angel', 'dream girl', 'corazon', 'darling', 'dearest', 'honeybun', 'admirer', 'cocoa puff', 'aphrodite', 'reeses cup', 'cara mia', 'missus', 'queen', 'inamorata', 'paramour', 'sweet pea', "taylor swift"];
   var current = 'valentine';
   var ind = 0;
   void getNext() {
@@ -128,7 +128,7 @@ class _GeneratorPageState extends State<GeneratorPage> {
   void initState() {
     super.initState();
     _controllerCenter =
-        ConfettiController(duration: const Duration(seconds: 10));
+        ConfettiController(duration: const Duration(seconds: 4));
   }
 
   @override
